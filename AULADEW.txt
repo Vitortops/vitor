@@ -1,0 +1,28 @@
+Passo a passo git hub
+!- Entrar no github com email e senha
+2- Entrar no Vscode
+3- Fechar pasta (se estiver aberta ) -File--> Close Folder 
+4- Ir no botão source-control 
+5- Botão clone-repository 
+6-Copiar url do repositorio no Github e colar no Vscode e teclar  "enter"
+7- Clonar o diretorio em c:/xamp/htdocs e aplicar em open 
+8- Tela azul se confia em author clicar em sim
+9- ----------- fim da clonagem do repositorio do github --------------------
+
+---------- configuar terminal ------------------
+1- Ir no menu terminal --> new terminal
+2- digitar os comandos:
+git config --global user.email "email-do-Github"
+git config --global user.name "nome-usuario-github"
+3- Fechar terminal
+------------------------------------------------------------------------------------------------------
+---------Enviando mudanças para github---------------------------------
+1- Salvar as mudanças "crtl+s"
+2- ir no source-control
+3- em changes clicar em +
+4- colocar mensagem no commit 
+5- clicar na setinha do botao commit (azul)
+6- Clicar em commit & push
+7- Na primeira vez dar as autorizaçoes - na segunda nao será mais necessario
+8- Ver no Github se foi atualizado
+----------------------------FIM---------------------------------------------------------------------
