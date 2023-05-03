@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="">
+        <div>
+            <label for="nome_usuario">Nome:</label><!--Label insere um rótulo -->
+            <!--Input text é um campo de entrada de texto -->
+            <input type="text" name="nome_usuario" id="nome_usuario" size="50" maxlength="10" minlength="3" placeholder="Digite seu nome">
+        <div>   
+        <br>
+        </div>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" required>
+        </div>
+        <div>
+                <label for="">Hobbies</label>
+                <input type="checkbox" name="esporte" id="esporte">
+                 <label for="Esportes">Esportes</label>
+                <input type="checkbox" name="Cinema" id="Cinema">
+                <label for="">Cinema</label>
+                <input type="checkbox" name="leitura" id="leitura">
+                <label for="Leitura">Leitura</label>
+        <div>
+        </div>
+                <label for="">Escolha o tipo</label>
+                <input type="radio" name="tipo" id="adulto">
+                <label for="adulto">adulto</label>
+                <input type="radio" name="tipo" id="adolecscente">
+                <label for="adulto">adulto</label>
+                <input type="radio" name="tipo" id="criança">
+                <label for="criança">criança</label>
+        <div>
+        <br>
+        </div>
+                <label for="arquivo">Escolha um arquivo:</label>
+                <input type="file" name="arquivo" id="arquivo" accept="">
+        <div>
+        <br>
+        </div>
+                <label for="">Escolha uma opção</label>
+                <select name="opc" id="opc">
+                    <option value="tsi">TSI</option>
+                    <option value="tme">TME</option>
+                    <option value="inf">Informática</option>
+                    <option value="adm">Administração</option>
+                </select>
+        <div>
+          <br>
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Deixe seu recado"></textarea>
+        <div>
+            <br>
+          </div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Apagar</button >
+                <!---------Botoes------------
+                     <input type="submit" value="Enviar">
+                     <input type="submit" value="Apagar">
+                -->
+                
+             </div>
+    </form>
+</body>
+</html>
