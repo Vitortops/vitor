@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+        <div>
+            <label for="nome_usuario">Nome:</label><!--Label insere um rótulo -->
+            <!--Input text é um campo de entrada de texto -->
+            <input type="text" name="nome_usuario" id="nome_usuario" size="50" maxlength="10" minlength="3" placeholder="Digite seu nome">
+        <div>   
+        <br>
+        </div>
+        <label for="senha">Endereço:</label>
+        <input type="password" name="senha" id="senha" required>
+    </div>
+    <br>
+    <label for="senha">Cidade:</label>
+    <input type="password" name="senha" id="senha" required>
+    <div>
+        <br>
+        </div>
+                <label for="">Escolha uma opção</label>
+                <select name="opc" id="opc">
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Rio Grande Do Sul">Rio Grande do sul</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+                    <option value="Rio de janeiro">Rio de janeiro</option>
+                    
+                </select>
+        </div>
+    </fieldset>
+    <fieldset>
+            <legend>Dados profissionais</legend>
+        </div>
+        <label for="">Natureza de Cargo</label>
+        <br>
+        <input type="radio" name="tipo" id="Gêrencia" checked>
+        <label for="adulto">Gêrencia</label>
+        <input type="radio" name="tipo" id="Financeiro">
+        <label for="adulto">Financeiro</label>
+        <input type="radio" name="tipo" id="Administrativo">
+        <label for="criança">Administrativo</label>
+        <input type="radio" name="tipo" id="jurídico">
+        <label for="criança">jurídico</label>
+         <br>
+         <br>
+         <br>
+                <label for="">Àrea de interesse</label>
+                <input type="checkbox" name="Computaçao" id="computação">
+                 <label for="Esportes">Esportes</label>
+                <input type="checkbox" name="Biologia" id="Biologia">
+                <label for="">Cinema</label>
+                <input type="checkbox" name="leitura" id="Meio ambiente">
+                <label for="Leitura">Meio ambiente</label>
+                <input type="checkbox" name="leitura" id="Engenharia">
+                <label for="Leitura">Engenharia</label>
+                <input type="checkbox" name="leitura" id="Hístoria">
+                <label for="Leitura">Hístoria</label>
+        <br>
+         </div>
+         <div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mini-Curriculo"></textarea>
+
+         </div>
+    </fieldset>
+
+   
+    
+       
+                <button type="submit">Enviar</button>
+                <button type="reset">Apagar</button >
+                <!---------Botoes------------
+                     <input type="submit" value="Enviar">
+                     <input type="submit" value="Apagar">
+                -->
+                
+             
+    </form>
+</body>
+</html> 
